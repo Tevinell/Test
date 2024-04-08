@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CFFEA37C-AEF5-FFBF-F87F-ED15DF517700" name="Дисциплина">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:51:06 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Трудоемкость" id="81ED6EE7-1783-D817-4A04-5038DD3086A7">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:51:11 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Название" id="C9AA6B38-3E14-40D8-AC8F-CA946C7F751F">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:51:16 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Часы лекций" id="7389A1E7-1DF3-9A1E-BA4F-9BE998361527">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:51:20 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Часы практик" id="754676DC-9F72-51EC-74A0-F30C8BB4A81F">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:51:25 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Часы лабораторных" id="759B55D2-BEF2-873F-580F-619821A53081">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:51:29 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Часы самостоятельных" id="F535780B-55D7-EA0F-2BCF-3469618C6E2C">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:51:36 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Имя" id="AF5EA87A-4A56-F95A-7715-8EFE4349BC62">
+<createdBy>mkuzm</createdBy>
+<createdTime>2024-03-14 09:45:11 UTC</createdTime>
+<generatorID>34720485-C4FD-61A2-3055-3F8B7497BE0A</generatorID>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<referedAttribute>9377E6C6-18E4-E8C0-BB58-8B197AF3C52C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Фамилия" id="480EF736-AEE0-F261-D6F2-DD746EA81A5C">
+<createdBy>mkuzm</createdBy>
+<createdTime>2024-03-14 09:45:11 UTC</createdTime>
+<generatorID>34720485-C4FD-61A2-3055-3F8B7497BE0A</generatorID>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<referedAttribute>15D0C90D-A32A-B2E4-DEFF-94D7B5F29B1F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77202821-9D24-A7D4-F7F4-3499DC83E4AE" name="Дисциплина PK">
+<createdBy>mkuzm</createdBy>
+<createdTime>2024-03-14 09:41:49 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>81ED6EE7-1783-D817-4A04-5038DD3086A7</attributeRef>
+<attributeRef>C9AA6B38-3E14-40D8-AC8F-CA946C7F751F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

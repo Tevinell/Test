@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AB4970E-E80B-118B-6036-24F096C4BBC7" name="Студент">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:49:52 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Телефон" id="70865B62-C7B6-B9DF-385F-B1604831A70D">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:49:58 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Домашний адрес" id="723E82D1-0988-63C1-F1E3-3DC34F947990">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:02 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Фамилия" id="C2DB73E0-EAF1-B302-88D4-AFB94C3A0152">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:07 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Имя" id="E8B6D651-898E-6CCE-4B63-B4C6D543EE67">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:11 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Отчество" id="26861BA9-78FE-E37B-D80B-B359D70B2C69">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:14 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата поступления" id="164C7020-6E77-FA72-59F9-DF6DEBEDEAB4">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:18 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Иностранец" id="0CAA32CB-A99F-7F13-9279-71A9C3528013">
+<createdBy>mkuzm</createdBy>
+<createdTime>2024-03-06 03:28:52 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Регион" id="C1103B4B-9765-3160-3F11-979DDB8EC5A6">
+<createdBy>mkuzm</createdBy>
+<createdTime>2024-03-06 03:29:07 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E53F6D2-6517-5582-DAE0-3EA5B0B8852A" name="Студент PK">
+<createdBy>mkuzm</createdBy>
+<createdTime>2024-03-14 09:43:58 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8B6D651-898E-6CCE-4B63-B4C6D543EE67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7D223BB-CD41-41B4-D194-43B99E30F2B6" name="Оценка">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:38 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Значение" id="41DB3C9B-A784-0873-3D1D-52D11455E042">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:45 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата" id="2FB3EDE1-CFD5-A226-4D8A-4355C45F995D">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:49 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Преподаватель" id="EC872DCD-C24C-FA43-FB6A-F881FF930683">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:50:50 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

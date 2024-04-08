@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28296AAA-0DA1-476E-498B-1557AEE7EF03" name="Преподаватель">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:52:16 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Фамилия" id="15D0C90D-A32A-B2E4-DEFF-94D7B5F29B1F">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:52:24 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Имя" id="9377E6C6-18E4-E8C0-BB58-8B197AF3C52C">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:52:27 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Отчество" id="BF6207D0-1503-4700-35E1-540B22CBAB42">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:52:34 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Телефон" id="C0CA892A-AE0A-182C-BB0D-4E992664FCEE">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:52:38 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Адрес" id="C7AB4894-9C8E-3460-777C-ABDFC395A803">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:52:42 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Возраст" id="1EF4D14A-D9D1-86D5-7E62-1A2C959AB041">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:52:45 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Присутствие на комиссии" id="48F1B872-EB82-5873-021A-78C50E9D46D3">
+<createdBy>tevin</createdBy>
+<createdTime>2024-03-05 19:52:48 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA5E9AF8-D706-F0FD-C57A-A12743AB1023" name="Преподаватель PK">
+<createdBy>mkuzm</createdBy>
+<createdTime>2024-03-14 09:45:02 UTC</createdTime>
+<ownerDesignName>Система вуза</ownerDesignName>
+<engineerTo>
+<item key="13FB4867-6AC2-5529-408C-C23A9C83EF6A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9377E6C6-18E4-E8C0-BB58-8B197AF3C52C</attributeRef>
+<attributeRef>15D0C90D-A32A-B2E4-DEFF-94D7B5F29B1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
